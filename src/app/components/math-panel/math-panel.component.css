@@ -1,0 +1,11 @@
+#math-panel{;
+    opacity: 90%;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding:10px;
+    margin-top:10px;
+}
+
+#math-panel button{
+    margin:5px;
+}

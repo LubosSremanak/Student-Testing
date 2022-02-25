@@ -1,0 +1,36 @@
+#math-question {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+#answer {
+    color: grey;
+    display: block;
+    border-radius: 13px;
+    min-height: 50px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#student-answer {
+    height: 44px;
+    max-width: 400px;
+    align-items: flex-start;
+    justify-content: flex-start !important;
+}
+
+.highlight-lecturer-background {
+    margin-bottom: 30px;
+    height: 60px;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.highlight-student-background, .button-icon {
+    margin-right: 20px;
+    font-size: 30px;
+}

@@ -1,0 +1,10 @@
+#submit .add-icon {
+    font-size: 20px;
+}
+#submit {
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    width: fit-content;
+    width: -moz-fit-content;
+}

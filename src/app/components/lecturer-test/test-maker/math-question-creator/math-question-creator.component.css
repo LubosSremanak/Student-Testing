@@ -1,0 +1,55 @@
+#math-question-creator {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+#math-question-creator #question-type {
+    margin-bottom: 30px;
+    height: 50px;
+    width: calc(100% - 20px);
+    padding: 0 0 0 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#math-question-creator input,
+#math-question-creator textarea,
+#math-question-creator input
+{
+    font-size: 20px;
+    line-height: 23px;
+    height: 44px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+#answer{
+    color:grey;
+    border-radius: 13px;
+    min-height:50px;
+    text-decoration: none;
+    padding:20px;
+    width:94%;
+    margin:0 auto;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+
+#math-question-creator .highlight-student-background {
+    margin-bottom: 30px;
+    height: 60px;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#math-question-creator .highlight-student-background .button-icon {
+    margin-right: 20px;
+    font-size: 30px;
+}

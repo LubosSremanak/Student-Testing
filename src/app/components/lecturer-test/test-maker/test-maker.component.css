@@ -1,0 +1,75 @@
+#test-maker {
+    width: 100%;
+    height: fit-content;
+}
+
+#test-maker .title {
+    align-self: flex-start;
+    justify-self: flex-start;
+    margin-bottom: 44px;
+}
+
+#test-maker .test-properties {
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+#test-maker .test-properties input {
+    height: 44px;
+}
+
+#test-maker .test-properties #test-name {
+    margin-bottom: 20px;
+}
+
+#test-maker #question-creator-container {
+    width: 100%;
+    height: 100%;
+}
+
+#test-maker #question-creator-container * {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+#test-maker #question-type-menu {
+    width: 100%;
+    height: 100%;
+}
+
+#test-maker #question-type-menu .highlight-lecturer-background {
+    margin-bottom: 30px;
+    height: 50px;
+    width: 100% !important;
+    display: flex;
+    padding: 20px 0 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#test-maker #question-type-menu .text {
+    font-weight: 700;
+}
+
+#test-maker #question-type-menu .add-icon {
+    margin-right: 20px;
+}
+
+#submit {
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    width: -moz-fit-content;
+
+    width: fit-content;
+}
+
+#submit .add-icon {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    #test-maker {
+        width: 85vw;
+    }
+}

@@ -1,0 +1,4 @@
+.idea/
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+/src/app/shared/model/service/config.js

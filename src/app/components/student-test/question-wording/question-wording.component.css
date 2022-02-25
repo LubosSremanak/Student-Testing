@@ -1,0 +1,29 @@
+#question-wording {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#question-wording #question-wording-text {
+    text-indent: -1.1em;
+    line-height: 1.3em;
+    word-break: break-word;
+}
+
+#question-wording .answer-container {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#question-wording .answer-container #answer-title {
+    padding-left: 1.2em;
+    color: var(--text-input-color);
+}
+
+#question-wording .answer-container #points {
+    padding-left: 1.2em;
+}

@@ -1,0 +1,30 @@
+#points-edit {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end !important;
+    align-items: flex-end;
+    margin: 20px 0;
+}
+
+#points-field {
+    height: 50px;
+    width: 100px;
+}
+
+.flex-right {
+    width: fit-content;
+    width: -moz-fit-content;
+
+    align-items: flex-start;
+}
+
+.label {
+    padding-left: 2px;
+    margin-bottom: 5px;
+}
+
+.disabled {
+    border-color: var(--secondary-color-lecturer);
+    border: 2px solid;
+    color: var(--text-input-placholder-color);
+}

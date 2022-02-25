@@ -1,0 +1,17 @@
+#math-question-view {
+}
+
+#math-question-view :is(.highlight-student-background,.highlight-lecturer-background) {
+    margin-bottom: 30px;
+    height: 60px;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#math-question-view :is(.highlight-student-background,.highlight-lecturer-background) .button-icon {
+    margin-right: 20px;
+    font-size: 30px;
+}

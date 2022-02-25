@@ -1,0 +1,118 @@
+#home {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    background-image: url("../../../assets/images/welcome-page-cover.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+#home :is(#intro, #form) {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 8vh;
+    min-width: 720px;
+}
+
+#home #intro {
+    align-items: flex-start;
+}
+
+#home #intro :is(#student-button,#lecturer-button) {
+    max-width: 500px;
+    width: 100%;
+    height: 10vh;
+}
+
+#home #intro  #student-button {
+    margin-bottom: 40px;
+}
+
+#home #intro #lecturer-button {
+
+}
+
+#home #intro .space {
+    margin-left: 120px;
+    align-items: flex-start;
+}
+
+#home #intro .space .title {
+    margin-bottom: 5vh;
+    margin-right: 50px;
+}
+
+#home #intro .space .subtitle {
+    margin-bottom: 50px;
+}
+
+#home #form {
+    align-items: center;
+}
+
+#home #form #dynamic-form {
+    margin-right: 120px;
+}
+
+#dynamic-title {
+    transition: color 0.3s cubic-bezier(.17,.67,.83,.67);
+}
+
+/*Tablets*/
+@media only screen and (max-width: 1440px) {
+
+    #home #intro {
+        align-items: center;
+        justify-content: center;
+        min-width: 0;
+    }
+
+
+    #home #intro .space {
+        margin-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #home #intro .space .title {
+        margin-right: 0;
+    }
+
+    #home #form {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home #form #dynamic-form {
+        margin-right: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+/*Mobiles*/
+@media only screen and (max-width: 770px) {
+    #home :is(#intro, #form) {
+        min-width: 0;
+        margin: 0 10px;
+        width: 90vw;
+    }
+
+    #home #form {
+        margin-top: 100px;
+    }
+
+    #home #intro .space .title {
+        font-size: 10vw;
+
+    }
+
+}

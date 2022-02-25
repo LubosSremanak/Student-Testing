@@ -1,0 +1,41 @@
+<div class="flex-column" id="test-maker">
+    <span class="title">Vytvorenie testu</span>
+
+    <div class="test-properties flex-column">
+        <label for="test-name"></label>
+        <input id="test-name" placeholder="Názov testu" type="text">
+        <label for="time-limit"></label>
+        <input id="time-limit" placeholder="Časový limit" type="number">
+    </div>
+
+    <div class="flex-column" id="question-creator-container">
+        <!-- Empty container for dynamic questions-->
+    </div>
+
+    <div class="flex-column" id="question-type-menu">
+        <button class="highlight-lecturer-background " id="add-open-answer-button">
+            <span class="text">Otvorena krátka odpoveď</span>
+            <span class="add-icon"><i class="fas fa-plus-circle"></i></span>
+        </button>
+        <button class="highlight-lecturer-background " id="add-multichoice-button">
+            <span class="text">Výber správnej odpovede</span>
+            <span class="add-icon"><i class="fas fa-plus-circle"></i></span>
+        </button>
+        <button class="highlight-lecturer-background " id="add-pair-question-button">
+            <span class="text">Párovanie správnych odpovedí</span>
+            <span class="add-icon"><i class="fas fa-plus-circle"></i></span>
+        </button>
+        <button class="highlight-lecturer-background " id="add-draw-question-button">
+            <span class="text">Odpoveď pomocou kreslenia</span>
+            <span class="add-icon"><i class="fas fa-plus-circle"></i></span>
+        </button>
+        <button class="highlight-lecturer-background " id="add-math-question-button">
+            <span class="text">Odpoveď pomocou matematického výrazu</span>
+            <span class="add-icon"><i class="fas fa-plus-circle"></i></span>
+        </button>
+    </div>
+    <button class="icon-button highlight-lecturer-background " id="submit">
+        <span class="text">Uložiť</span>
+        <span class="add-icon"><i class="fas fa-save"></i></span>
+    </button>
+</div>

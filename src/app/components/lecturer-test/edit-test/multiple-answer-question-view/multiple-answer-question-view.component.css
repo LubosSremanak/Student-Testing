@@ -1,0 +1,51 @@
+#multiple-answer-question #options-container .one-option-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+
+#multiple-answer-question #options-container .one-option-container input {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    position: relative;
+}
+
+#multiple-answer-question #options-container .one-option-container input:checked {
+    position: relative;
+}
+
+#multiple-answer-question #options-container .one-option-container input:checked:before {
+    content: '●';
+    display: block;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-52%) translateY(-54%);
+}
+
+#multiple-answer-question #options-container .one-option-container span {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    height: 25px;
+    margin: auto 10px;
+}
+
+#multiple-answer-question #options-container .one-option-container i {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto 10px;
+}
+
+#multiple-answer-question #options-container .one-option-container i.fa-check {
+    color: var(--success-color);
+}
+
+#multiple-answer-question #options-container .one-option-container i.fa-times {
+    color: red;
+}

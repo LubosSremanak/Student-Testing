@@ -1,0 +1,28 @@
+#student-test {
+    height: 100%;
+    width: 100%;
+}
+
+#student-test #paper {
+    width: 50vw;
+    transition: 0.2s;
+    padding: 100px;
+    box-shadow: 0 2px 38px rgba(0, 0, 0, 0.2);
+}
+
+#student-test #paper * {
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+app-question-wording {
+    margin: 50px 6.3vw 50px 6.3vw;
+}
+
+@media screen and (max-width: 600px) {
+    #student-test #paper {
+        width: 90vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

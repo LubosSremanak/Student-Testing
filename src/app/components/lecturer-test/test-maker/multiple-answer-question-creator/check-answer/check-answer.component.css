@@ -1,0 +1,51 @@
+#check-answer {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#check-answer #answer {
+    font-size: 20px;
+    line-height: 23px;
+    height: 44px;
+    width: 100%;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+#check-answer #checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+#check-answer #checkbox-container #truth-box {
+    width: 30px !important;
+    height: 30px !important;
+    -webkit-appearance: none;
+    border-radius: 100px !important;
+    background-color: #FDFDFD;
+    border: 2px solid #BDBDBD;
+    padding: 9px;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+}
+
+#check-answer #checkbox-container #truth-box:checked {
+    border: 3px solid #55AB5D;
+    position: relative;
+}
+
+#check-answer #checkbox-container #truth-box:checked:before {
+    content: '✔';
+    display: block;
+    font-size: large;
+    color: #55AB5D;
+    margin: auto;
+
+    position: absolute;
+    top: 0;
+    left: 4px;
+}

@@ -1,0 +1,109 @@
+#test-table {
+    width: fit-content;
+    max-width: 90vw;
+    width: -moz-fit-content;
+    height: fit-content;
+}
+
+
+#test-table .title {
+    align-self: flex-start;
+    margin-bottom: 44px;
+}
+
+#test-table .subtitle {
+    align-self: flex-start;
+    margin-top: -22px;
+    margin-bottom: 22px;
+    margin-left: 5px;
+}
+
+
+#test-table #table {
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+
+#test-table #table :is(#table-header th,td) {
+    text-align: center;
+
+
+}
+
+#test-table #table th {
+    padding: 20px 50px;
+    user-select: none;
+    font-size: 30px;
+}
+
+
+#test-table #table td {
+    padding: 5px 50px;
+    word-break: break-word;
+}
+
+#test-table #table td :is(#activateButton,#deactivateButton) {
+    margin: 10px;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+
+#test-table #table #table-header :first-child {
+    border-top-left-radius: 20px;
+
+}
+
+#test-table #table #table-header :last-child {
+    border-top-right-radius: 20px;
+}
+
+@media screen and (max-width: 700px) or (max-width: 1000px
+) {
+    table, th, td, tr {
+        display: block;
+    }
+
+    .title {
+        align-self: center !important;
+    }
+
+    th {
+        display: none;
+    }
+
+    #test-table #table, #table-header {
+        border-radius: 20px;
+    }
+
+    #test-table :is(#table, #table-header) {
+        width: 90vw;
+    }
+
+    #test-table #table :is(#table-header th,td) {
+        min-width: 0;
+        text-align: left;
+    }
+
+    #test-table #table {
+        box-shadow: none;
+    }
+
+    #test-table #table #test-table-body tr {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+        flex-direction: column;
+        box-shadow: 12px 12px 42px rgba(0, 0, 0, 0.04);
+        padding: 20px 0;
+        margin: 20px 0;
+        border-radius: 20px;
+    }
+
+    #test-table #table #table-header th {
+        font-size: 5vw !important;
+    }
+}
+

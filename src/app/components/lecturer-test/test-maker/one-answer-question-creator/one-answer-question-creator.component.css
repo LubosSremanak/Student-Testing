@@ -1,0 +1,27 @@
+#one-answer-question-creator {
+    width: 100%;
+}
+
+#one-answer-question-creator :is(#question,#points,#correct-answer) {
+    height: 44px;
+}
+
+#one-answer-question-creator :is(#question,#points) {
+    margin-bottom: 20px;
+}
+
+#one-answer-question-creator .question-type {
+    margin-bottom: 30px;
+    height: 50px;
+    width: calc(100% - 20px);
+    padding: 0 0 0 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+#correct-answer {
+    border-color: var(--success-color);
+}

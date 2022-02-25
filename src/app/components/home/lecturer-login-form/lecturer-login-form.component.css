@@ -1,0 +1,53 @@
+#home-form {
+    height: 100%;
+    width: 100%;
+}
+
+#home-form #form {
+    min-height: 550px;
+    min-width: 36.5vw;
+    background-color: var(--primary-color);
+    box-shadow: 12px 12px 42px #F1F1F1;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+.form-header{
+    padding: 0 10px;
+}
+
+#home-form #form .subtitle:not(.form-header .subtitle) {
+    margin: 50px 50px 20px 50px;
+    align-self: flex-start;
+}
+
+
+#home-form #form .text {
+    margin: 50px 0 50px 0;
+}
+
+
+#home-form input {
+    width: 82%;
+    height: 44px;
+    margin: 10px 50px 10px 50px;
+}
+
+
+.submit-button {
+    width: 250px;
+    height: 60px;
+    margin-top: 50px;
+}
+
+#student-login-button {
+    margin-bottom: 50px;
+}
+
+#lecturer-register-button {
+    margin-bottom: 50px;
+}
+
+
+#register-link {
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+
+#api-test-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+
+}
+
+#api-test {
+    font-weight: 600;
+    border: solid 3px black;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 10px;
+    transition: height 0.2s linear;
+}
+
+#api-test span {
+    margin: 5px;
+}
+
+#api-test :last-child {
+    align-self: center;
+    color: #a91414;
+}

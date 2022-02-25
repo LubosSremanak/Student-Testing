@@ -1,0 +1,10 @@
+#one-answer-question {
+    width: 100%;
+}
+
+#student-answer {
+    height: 44px;
+    max-width: 400px;
+    align-items: flex-start;
+    justify-content: flex-start !important;
+}

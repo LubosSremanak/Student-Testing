@@ -1,0 +1,60 @@
+#pair-question-creator {
+    width: 100%;
+}
+
+#pair-question-creator :is(#question-text,#question-points) {
+    height: 44px;
+    margin-bottom: 20px;
+}
+
+#question-pairs {
+    display: flex;
+    flex-direction: column;
+}
+
+.pair {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-pair-value {
+    flex: 1 0 calc(48% - 70px);
+}
+
+.input-pair-left-value {
+    margin-right: 60px;
+}
+
+.input-bottom-margin {
+    margin-bottom: 20px;
+}
+
+
+.question-header {
+    margin-bottom: 30px;
+    height: 50px;
+    width: calc(100% - 20px);
+    padding: 0 0 0 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+#add-pair-button {
+    margin-bottom: 30px;
+    margin-left: auto;
+    height: 44px;
+    width: 50%;
+    display: flex;
+    padding: 20px 0 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-icon {
+    margin-right: 20px;
+}

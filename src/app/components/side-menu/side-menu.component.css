@@ -1,0 +1,89 @@
+#side-menu-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    z-index: 999;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--primary-color);
+    transition: 0.2s;
+}
+
+#side-menu-header lottie-player {
+    height: 90px;
+    width: 100px;
+}
+
+#side-menu-header #side-menu-header-name {
+    display: flex;
+}
+
+#side-menu-header .text {
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+#side-menu-header #side-menu-swap-button {
+    background-color: transparent !important;
+    color: var(--primary-color);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#side-menu {
+    height: 98vh;
+    width: 400px;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    overflow: hidden;
+    transition: 0.2s;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 999;
+}
+
+#create-test-button, #show-all-tests {
+    margin-top: 50px;
+}
+
+#show-all-tests {
+    display: none;
+}
+
+#logout-button, #send-test-button {
+   margin-top: 100px;
+}
+
+
+button, span, a {
+    white-space: nowrap;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+}
+
+#side-menu #timer-container{
+    display: block;
+    text-align: center;
+    margin-top: 75%;
+    color: black;
+}
+
+#side-menu #timer-container span{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#side-menu #timer-container #timer{
+    font-size: 50px;
+    font-weight: 400;
+}

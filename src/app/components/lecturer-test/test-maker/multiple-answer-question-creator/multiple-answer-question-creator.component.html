@@ -1,0 +1,23 @@
+<div id="multiple-answer-question-creator">
+    <div class="highlight-lecturer-background" id="question-type">
+        <span class="text">Výber správnej odpovede</span>
+    </div>
+
+    <label>
+        <textarea id="question" placeholder="Otázka bez názvu"></textarea>
+    </label>
+
+    <label>
+        <input id="points" min="0" placeholder="Body" type="number">
+    </label>
+
+    <div id="all-answers-container">
+        <app-check-answer defaultChecked=true></app-check-answer>
+        <app-check-answer defaultChecked=false></app-check-answer>
+    </div>
+
+    <button class="highlight-lecturer-background " id="add-answer-button">
+        <span class="text">Pridať možnosť</span>
+        <span class="add-icon"><i class="fas fa-plus-circle"></i></span>
+    </button>
+</div>

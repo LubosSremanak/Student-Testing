@@ -1,0 +1,17 @@
+#active-test-detail {
+
+}.empty-table {
+    width: 100%;
+    height: 200px;
+    font-weight: 700;
+    font-size: x-large;
+    color: var(--text-input-placholder-color);
+    text-align: center;
+}
+
+ #editTest.edit-test{
+     background-color: transparent;
+    font-size: 30px;
+     text-align: center;
+     vertical-align: middle;
+ }

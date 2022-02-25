@@ -1,0 +1,11 @@
+#pair-question-view {
+
+}
+
+.correct-border{
+    border-color: var(--success-color); !important;
+}
+
+.incorrect-border{
+    border-color: var(--secondary-color-student-hover); !important;
+}

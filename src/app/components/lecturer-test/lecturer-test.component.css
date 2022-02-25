@@ -1,0 +1,19 @@
+#lecturer-test {
+    width: 100%;
+    height: 100%;
+}
+
+#lecturer-test #dynamic-test-form {
+    transition: 0.2s;
+    margin-top: 50px;
+}
+
+#student-test {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    #lecturer-test {
+        margin-top: 0;
+    }
+}
